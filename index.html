@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- search collapse -->
+    <div class="alert alert-primary alert mb-0 collapse" id="search">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control">
+                <button type="button" class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </div>
+            <h3 class="my-4">Quick Links</h3>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/j/6/i/-original-imaghryqhhyawh3h.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Featured Product</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, beatae?</p>
+                                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- search collapse end -->
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- d-flex justify-content-between = use it in parent class to divide both child -->
+            <!-- and we can also implement class="ms-auto" in one child so it'll get in margin start -->
+            <div class="collapse navbar-collapse" id=" navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- menu start -->
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu alert alert-primary w-100 border-bottom border-5 border-primary">
+                        <div class="container">
+
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ms-auto">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse"
+                        data-bs-target="#search"><i class="bi bi-search"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+                        data-bs-target="#cart"><i class="bi bi-cart"></i></button>
+
+                    <button type="button" class="btn btn bg-light" data-bs-toggle="offcanvas" data-bs-target="#oc">
+                        login <i class="bi bi-person-lock"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- login offcanvas start -->
+    <div class="offcanvas offcanvas-end" id="oc">
+        <div class="offcanvas-login">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <div class="card">
+                            <div class="card-header bg-primary text-light ">
+                                <h5>Login</h5>
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <label for="email" class="form-label">Enter Email</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                                    <div class="valid-feedback">Looks good!</div>
+                                    <div class="invalid-feedback">Please choose a username.</div>
+                                </div>
+                                <div class="mt-2">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password"
+                                        placeholder="Enter Your Password" />
+                                    <div class="valid-feedback">Looks good!</div>
+                                    <div class="invalid-feedback">Please choose a username.</div>
+                                </div>
+                                <button type="button" class="btn btn-primary w-100 mt-3">
+                                    Login
+                                </button>
+                                <p class="text-center mt-3">
+                                    Dont Have Account? <a href="#">Create Account</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login offcanvas end -->
+
+    <!-- Cart offcanvas start -->
+    <div class="offcanvas offcanvas-start" id="cart">
+        <div class="offcanvas-header bg-primary text-light">
+            <h5 class="offcanvas-title">Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/51+7Guk8aGL._SX425_.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-sm-2">
+                            <span>Qty : 2</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <span>87,999/-</span>
+                        </div>
+                        <p class="text-success text-center">you have saved 750/-</p>
+                        <div class="btn-group w-100">
+                            <button type="button" class="btn btn-danger">Remove</button>
+                            <button type="button" class="btn btn-warning">wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="img-fluid"
+                                src="https://cdn1.smartprix.com/rx-ilcEIohGc-w1200-h1200/lcEIohGc.jpg" alt="">
+                        </div>
+                        <div class="col-sm-2">
+                            <span>Qty : 2</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <span>87,999/-</span>
+                        </div>
+                        <p class="text-success text-center">you have saved 750/-</p>
+                        <div class="btn-group w-100">
+                            <button type="button" class="btn btn-danger">Remove</button>
+                            <button type="button" class="btn btn-warning">wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart offcanvas end -->
+
+    <!-- carusel start -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://images-cdn.ubuy.co.in/633ab3a9d9b0dc2d607686fc-dell-xps-13-9310-touchscreen-13-4-inch.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>DEll XPS 13 Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quo iste libero blanditiis
+                            deserunt distinctio ipsam repellat quisquam commodi ab?</p>
+                        <button type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://images-cdn.ubuy.co.in/633ab3a9d9b0dc2d607686fc-dell-xps-13-9310-touchscreen-13-4-inch.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>DEll XPS 13 Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quo iste libero blanditiis
+                            deserunt distinctio ipsam repellat quisquam commodi ab?</p>
+                        <button type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://images-cdn.ubuy.co.in/633ab3a9d9b0dc2d607686fc-dell-xps-13-9310-touchscreen-13-4-inch.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>DEll XPS 13 Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quo iste libero blanditiis
+                            deserunt distinctio ipsam repellat quisquam commodi ab?</p>
+                        <button type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carusel end -->
+
+    <!-- feature start -->
+    <div class="bg-primary text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-4">
+                        <i class="bi bi-microsoft fs-1"></i>
+                        <div>
+                            <h3>Secure Checkout</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-4">
+                        <i class="bi bi-microsoft fs-1"></i>
+                        <div>
+                            <h3>Secure Checkout</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-4">
+                        <i class="bi bi-app-indicator fs-1"></i>
+                        <div>
+                            <h3>Secure Checkout</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature end -->
+
+    <!-- Products start -->
+
+    <br>
+    <div class="container">
+        <h3>feature products</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://www.reliancedigital.in/medias/Asus-FX506LHB-HN356W-Laptops-492850463-i-4-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NzUwNzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDc0L2hmYy85ODQ3NjgxODQzMjMwLmpwZ3xmNGMwOTVmYWI1NzU2ODQ0NDg0OTFjZTFiYzU3ZjAwNjkzMDkyNTVkZWJkZGYxOGE4NmFkYzVjYTAyZTM0NWU5"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://brightstarcomp.com/wp-content/uploads/2022/09/4nobskjpgxuxirct_setting_xxx_0_90_end_2000.png"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://lzd-img-global.slatic.net/g/p/a1148edca69d20ce70cfa343110f7bea.jpg_720x720q80.jpg_.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary">
+                        <div class="d-flex justify-content-between">
+                            <span>ASUS TUF</span>
+                            <span>Starting at 72,999/-</span>
+                        </div><br>
+                        <button type="button" class="btn btn-outline-primary w-100">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://www.reliancedigital.in/medias/Asus-FX506LHB-HN356W-Laptops-492850463-i-4-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NzUwNzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDc0L2hmYy85ODQ3NjgxODQzMjMwLmpwZ3xmNGMwOTVmYWI1NzU2ODQ0NDg0OTFjZTFiYzU3ZjAwNjkzMDkyNTVkZWJkZGYxOGE4NmFkYzVjYTAyZTM0NWU5"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://brightstarcomp.com/wp-content/uploads/2022/09/4nobskjpgxuxirct_setting_xxx_0_90_end_2000.png"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://lzd-img-global.slatic.net/g/p/a1148edca69d20ce70cfa343110f7bea.jpg_720x720q80.jpg_.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary">
+                        <div class="d-flex justify-content-between">
+                            <span>ASUS TUF</span>
+                            <span>Starting at 72,999/-</span>
+                        </div><br>
+                        <button type="button" class="btn btn-outline-primary w-100">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://www.reliancedigital.in/medias/Asus-FX506LHB-HN356W-Laptops-492850463-i-4-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NzUwNzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDc0L2hmYy85ODQ3NjgxODQzMjMwLmpwZ3xmNGMwOTVmYWI1NzU2ODQ0NDg0OTFjZTFiYzU3ZjAwNjkzMDkyNTVkZWJkZGYxOGE4NmFkYzVjYTAyZTM0NWU5"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://brightstarcomp.com/wp-content/uploads/2022/09/4nobskjpgxuxirct_setting_xxx_0_90_end_2000.png"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://lzd-img-global.slatic.net/g/p/a1148edca69d20ce70cfa343110f7bea.jpg_720x720q80.jpg_.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary">
+                        <div class="d-flex justify-content-between">
+                            <span>ASUS TUF</span>
+                            <span>Starting at 72,999/-</span>
+                        </div><br>
+                        <button type="button" class="btn btn-outline-primary w-100">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products end -->
+
+    <!-- populer start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-5 border-success">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-success">Most Populer</button>
+                            <span><i class="bi bi-bookmark-heart"></i></span>
+                        </div>
+                        <div class="my-5">
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/51DUq04ZEeL._AC_SS450_.jpg"
+                                alt="">
+                            <p class="text-center">Routers</p>
+                            <p class="text-center">Enjoy unconstrained convenience and versatility. MR100 has been
+                                tested in the field for years to ensure universal compatibility</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- populer end -->
+
+    <!-- version control -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- cd..              to get back one folder before -->
+<!-- cd e (tab)        to get back to the privius folder-->
+<!-- cls               to erase it -->
+<!-- git --            to know version -->
